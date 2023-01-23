@@ -1,0 +1,20 @@
+{
+  "name": "private-test",
+  "version": "1.0.0",
+  "repository": "private-test",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "cleanup": "nuxi cleanup",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "prepare": "nuxt prepare",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@vueuse/core": "^9.11.1",
+    "@vueuse/nuxt": "^9.11.1",
+    "nuxt": "^3.0.0"
+  },
+  "dependencies": {}
+}

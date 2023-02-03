@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  modules: ['@vueuse/nuxt']
   // postcss: {
   //   plugins: {
   //     'postcss-nested': {},
@@ -6,4 +7,4 @@ export default defineNuxtConfig({
   //     cssnano: {},
   //   },
   // },
-});
+})

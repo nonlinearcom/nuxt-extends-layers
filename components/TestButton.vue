@@ -6,7 +6,7 @@
 // broken: import { useDark, useToggle } from '@vueuse/core';
 // broken: import { useDark, useToggle } from '../node_modules/@vueuse/core';
 // works:
-import { useDark, useToggle } from '@/node_modules/@vueuse/core';
+// import { useDark, useToggle } from '@/node_modules/@vueuse/core';
 const isDark = useDark()
 const toggleDark = useToggle(isDark)
 </script>
